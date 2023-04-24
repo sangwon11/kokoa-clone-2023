@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wellcome to kokoa clone</title>
 </head>
+<link rel="stylesheet" href="css/styles.css">
 <body>
-    
+<div class= "status-bar">
+<div class="status-bar_cloumn">
+<span>No Service</span>
+<i class="fas fa-wifi"></i>
+</div>
+<div class="status-bar_cloumn">
+<span> 18:43</span>
+</div>
+<div class="status-bar_cloumn">
+<span>110%</span>
+<i class="fas fa-battery-three-quarters"></i>
+<i class="fas fa-bolt"></i>
+</div>
+</div>
+<header class="welcome-header">
+<h1 class="welcome-header_title">welcome to kokoa clone</h1>
+<P class="welcome-header_text">If you have a kokoa account, log in with your email or phone number</P>
+</header>
+<from action= "friends.html" method="get" id="login-from">
+    <input name="username" type="text" placeholder="email or phone number"/>
+    <input name="password" type="password" placeholder="password"/>
+    <input type="submit" value="Log in"/>
+    <a href="#">find kokoa account or password</a>
+</from>
+
+<div class="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+</div>
+
+<script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous">
+</script>
 </body>
 </html>
